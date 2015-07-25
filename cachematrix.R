@@ -87,6 +87,7 @@ cacheSolve <- function(x, ...) {
 ## [2,]   -1    2
 ##
 ## Create special matrix object 'testM' with same structure as 'm'
+## > testM <- makeCacheMatrix()
 ## > testM$setMatrix(m)
 ## Test to see if 'testM' object has same structure as 'm'
 ## > testM$getMatrix()
